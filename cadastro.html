@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Usuário</title>
+</head>
+<body class="bg-cinza-fundos">
+
+    <header class="cabecalho__cadastro">
+        <a href="#"><img src="img/Casa.svg" alt="Página inicial" class="cabecalho__imagem"></a>
+        <a href="#"><img src="img/Mensagens.svg" alt="Caixa de mensagens" class="cabecalho__imagem"></a>
+    </header>
+
+    <main class="conteudo">
+        <img src="img/Logo azul.svg" alt="Logo da Adopet" class="conteudo__logo">
+        <p class="conteudo__texto_cadastro">Ainda não tem cadastro?</p> 
+        <p class="conteudo__texto_cadastro">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+
+        <form action="" class="conteudo__formulario">
+
+            <label for="email" class="conteudo__formulario-label">E-mail</label>
+            <input type="email" id="email" value="Escolha seu melhor e-mail" class="conteudo__formulario-input">
+
+            <label for="nome" class="conteudo__formulario-label">Nome</label>
+            <input type="text" id="nome" value="Digite seu nome completo" class="conteudo__formulario-input">
+
+            <label for="senha" class="conteudo__formulario-label">Senha</label>
+            <input type="password" id="senha" value="Crie uma senha" class="conteudo__formulario-input">
+
+            <label for="confirmar_senha" class="conteudo__formulario-label">Confirma sua senha</label>
+            <input type="password" id="confirmar_senha" value="Repita a senha criada acima" class="conteudo__formulario-input">
+
+            <input type="button" value="Cadastrar" class="conteudo__formulario-botao">
+        </form>
+        
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

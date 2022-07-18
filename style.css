@@ -1,0 +1,68 @@
+/*@import url("header.css");
+@import url("cadastro.css");*/
+@import url("tela_principal.css");
+
+
+:root{
+    --white: #FFFFFF;
+    --azul:  #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F7F7F7;
+
+    --font-main: "Poppins", sans-serif;
+    --font-secundary: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    background-image:  url("img/Forma\ 1\ cabecalho.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 100vh;/*sempre coloca no body*/
+    font-size: 16px;
+    font-family: var(--font-main);
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    
+
+}
+
+.classe__principal{
+    background-image: url("img/Forma\ 2\ lateral.svg"),url("img/Ilustração\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: center right, bottom 4em center;
+    background-color: var(--azul);
+}
+
+.cabecalho{
+    padding: 3em;
+}
+
+.cabecalho__imagem{
+    padding-right: 2em;
+}
+
+.conteudo{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    flex-grow: 1; /*deixa o rodapé la em baixo*/
+}
+
+
+.rodape{
+    background-color: var(--verde);
+    padding: 2em;
+    text-align: center;
+}
+
+.rodape__texto{
+    color: var(--white);
+}
