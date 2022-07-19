@@ -1,0 +1,12 @@
+.cabecalho__nav{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho{
+    padding: 3em;
+}
+
+.cabecalho__imagem{
+    padding-right: 2em;
+}

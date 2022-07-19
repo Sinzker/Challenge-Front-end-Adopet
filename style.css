@@ -1,8 +1,3 @@
-/*@import url("header.css");
-@import url("cadastro.css");*/
-@import url("tela_principal.css");
-
-
 :root{
     --white: #FFFFFF;
     --azul:  #3772FF;
@@ -20,17 +15,30 @@
 body{
     background-image:  url("img/Forma\ 1\ cabecalho.svg");
     background-repeat: no-repeat;
-    background-position: top left;
-    min-height: 100vh;/*sempre coloca no body*/
-    font-size: 16px;
     font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 16px;
+    min-height: 100vh;
+    
+    
+    /*background-position: top left;
+    min-height: 100vh;/*sempre coloca no body
+    font-size: 16px;
+    */
     /*display: flex;
     flex-direction: column;
     align-items: center;*/
-    
-
 }
 
+.rodape{
+    color: var(--white);
+    text-align: center;
+    background-color: var(--verde);
+    padding: 2.5em;
+}
+
+
+/*
 .classe__principal{
     background-image: url("img/Forma\ 2\ lateral.svg"),url("img/Ilustração\ 1.svg");
     background-repeat: no-repeat;
@@ -49,12 +57,13 @@ body{
 .conteudo{
     text-align: center;
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto; /*centralizar*/
     /*display: flex;
     flex-direction: column;
-    align-items: center;*/
+    align-items: center;
+    
     flex-grow: 1; /*deixa o rodapé la em baixo*/
-}
+/*}
 
 
 .rodape{
@@ -65,4 +74,5 @@ body{
 
 .rodape__texto{
     color: var(--white);
-}
+}*/
+

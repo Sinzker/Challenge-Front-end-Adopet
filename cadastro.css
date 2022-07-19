@@ -1,3 +1,4 @@
+@import url(header.css);
 
 .bg-cinza-fundos{
     background-image: url("img/Forma\ 2\ esquerdo.svg");
@@ -16,14 +17,18 @@
     padding: 3em;
 }
 
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+
+}
 
 .conteudo__texto_cadastro{
     color: var(--azul);
-    font-family: var(--font-main);
-    font-style: normal;
     font-weight: 400;
-    font-size: 1em;
-    line-height: 25px;
 
     padding-bottom: 0.5em;
 }

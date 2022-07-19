@@ -1,0 +1,50 @@
+@import url(header.css);
+
+body{
+    color: var(--white);
+    background-image: 
+        url("img/Forma\ 2\ lateral.svg"),
+        url("img/Forma\ 1\ cabecalho.svg"),
+        url("img/Ilustração\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: right center, left top, bottom 4em center;
+    background-color: var(--azul);
+    
+}
+
+main{
+    margin-top: 3rem;
+    margin-bottom: 319px; /*mas quero colocar flex-grow: 1;*/
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+
+}
+
+.conteudo__titulo{
+    font-family: var(--font-secundary);
+    font-style: normal;
+    font-size: 1.63em;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.conteudo__link{
+    background: var(--coral);
+    border-radius: 6px;
+    text-decoration: none;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--white);
+    font-weight: 600;
+    line-height: 24px;
+}
