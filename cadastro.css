@@ -3,14 +3,16 @@
 .bg-cinza-fundos{
     background-image: url("img/Forma\ 2\ esquerdo.svg");
     background-repeat: no-repeat;
-    background-position: left 60%;/* center left essa imagem n esta ficando no centro esquedo e a do cabeçalho esta aparecendo cortada o canto esquerto inferior*/
+    background-position: left 60%;/* center left essa imagem n esta ficando no centro esquedo e a do cabeçalho esta 
+    aparecendo cortada o canto esquerto inferior*/
     background-color: var(--cinza-claro-fundos);
     /*display: flex;
     flex-direction: column;*/ /*ja tem no principal preciso deixar aqui?*/
 }
 
 .cabecalho__cadastro{
-    background-image:  url("img/Patas.svg"), url("img/Forma\ 1\ cabecalho.svg");/*pq ainda tenho que deixar a imagem do cabeçalho sendo que tem na página principal?*/
+    background-image:  url("img/Patas.svg"), url("img/Forma\ 1\ cabecalho.svg");/*pq ainda tenho que deixar a imagem do
+    cabeçalho sendo que tem na página principal? e a patinhas dos cachorros não estão bem em cima do verde*/
     background-repeat: no-repeat;
     background-position:  top right, top left;
     height: 15vh; /*quanto mais almento aqui mais a logo vai pra baixo*/
