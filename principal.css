@@ -1,27 +1,52 @@
 @import url(header.css);
+@import url(rodape.css);
+
+:root{
+    --white: #FFFFFF;
+    --azul:  #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F7F7F7;
+
+    --font-main: "Poppins", sans-serif;
+    --font-secundary: "IBM Plex Sans", sans-serif;
+}
 
 body{
     color: var(--white);
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 16px;
+
     background-image: 
         url("img/Forma\ 2\ lateral.svg"),
         url("img/Forma\ 1\ cabecalho.svg"),
         url("img/Ilustração\ 1.svg");
     background-repeat: no-repeat;
     background-position: right center, left top, bottom 4em center;
-    background-color: var(--azul);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--azul);/*esse é pra deixar?*/
     
 }
 
 main{
-    margin-top: 3rem;
-    margin-bottom: 319px; /*mas quero colocar flex-grow: 1;*/
+    flex: 1 1 auto;
+    margin-top: 3rem auto;
+    /* margin-bottom: 319px; mas quero colocar flex-grow: 1; */
 }
 
 .conteudo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.5rem;/*controla explicitamente o espaço entre os itens flexíveis. Aplica-se esse espaçamento apenas entre 
+    os itens e não nas bordas externas.*/
     text-align: center;
 
 }

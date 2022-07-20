@@ -1,24 +1,24 @@
-@import url(header.css);
+@import url(principal.css);
 
 .bg-cinza-fundos{
     background-image: url("img/Forma\ 2\ esquerdo.svg");
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: left 60%;/* center left essa imagem n esta ficando no centro esquedo e a do cabeçalho esta aparecendo cortada o canto esquerto inferior*/
     background-color: var(--cinza-claro-fundos);
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/ /*ja tem no principal preciso deixar aqui?*/
 }
 
 .cabecalho__cadastro{
-    background-image:  url("img/Patas.svg"), url("img/Forma\ 1\ cabecalho.svg");
+    background-image:  url("img/Patas.svg"), url("img/Forma\ 1\ cabecalho.svg");/*pq ainda tenho que deixar a imagem do cabeçalho sendo que tem na página principal?*/
     background-repeat: no-repeat;
     background-position:  top right, top left;
-    height: 15vh;
-    padding: 3em;
+    height: 15vh; /*quanto mais almento aqui mais a logo vai pra baixo*/
+    padding: 3em;/*precisa deixar o padding?*/
 }
 
 .conteudo{
-    display: flex;
+    display: flex;/*ja tem no principal preciso deixar aqui?*/
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
@@ -30,7 +30,7 @@
     color: var(--azul);
     font-weight: 400;
 
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5em;/*não esta dando diferença sem ele, sera que é pq tem o gap no principal?*/
 }
 
 .conteudo__formulario{
@@ -52,6 +52,7 @@
     font-size: 0.75em;
     line-height: 16px;
     color: var(--cinza-claro);
+    text-align: center;
 
     background: var(--cinza-claro-fundos);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
@@ -61,9 +62,17 @@
     height: 40px;
 }
 
+.formulario-input-senha{
+    background-image: url("img/mostra_senha.svg");
+    background-repeat: no-repeat;
+    background-position: right;/*precisa ficar um pouco afastado das bordas*/
+
+}
+
 .conteudo__formulario-botao{
     background: var(--coral);
     border-radius: 6px;
+    border: none;
     width: 148px;
     height: 40px;
     margin: 2em 0 5em;

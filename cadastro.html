@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cadastro.css">
     <title>Cadastro de Usuário</title>
 </head>
 <body class="bg-cinza-fundos">
 
-    <header class="cabecalho__cadastro">
+    <header class="cabecalho__cadastro"> <!--em todas as páginas que tem esse cabeçalho vou ter que sempre colocar?-->
         <a href="#"><img src="img/Casa.svg" alt="Página inicial" class="cabecalho__imagem"></a>
         <a href="#"><img src="img/Mensagens.svg" alt="Caixa de mensagens" class="cabecalho__imagem"></a>
     </header>
@@ -30,10 +29,12 @@
             <input type="text" id="nome" placeholder="Digite seu nome completo" class="conteudo__formulario-input">
 
             <label for="senha" class="conteudo__formulario-label">Senha</label>
-            <input type="password" id="senha" placeholder="Crie uma senha" class="conteudo__formulario-input">
+            <input type="password" id="senha" placeholder="Crie uma senha" 
+            class="conteudo__formulario-input formulario-input-senha">
 
             <label for="confirmar_senha" class="conteudo__formulario-label">Confirma sua senha</label>
-            <input type="password" id="confirmar_senha" placeholder="Repita a senha criada acima" class="conteudo__formulario-input">
+            <input type="password" id="confirmar_senha" placeholder="Repita a senha criada acima" 
+            class="conteudo__formulario-input formulario-input-senha">
 
             <input type="button" value="Cadastrar" class="conteudo__formulario-botao">
         </form>

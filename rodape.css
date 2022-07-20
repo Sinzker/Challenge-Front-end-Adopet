@@ -1,0 +1,6 @@
+.rodape {
+    color: var(--white);
+    text-align: center;
+    background-color: var(--verde);
+    padding: 2.5em;
+}
