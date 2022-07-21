@@ -1,0 +1,93 @@
+@import url(../principal.css);
+/*@import url(../rodape.css);*/
+
+.tela_login{
+    background-image: url("../img/Forma\ 2\ esquerdo.svg");
+    background-repeat: no-repeat;
+    background-position: left 60%;/* center left essa imagem n esta ficando no centro esquedo e a do cabeçalho esta 
+    aparecendo cortada o canto esquerto inferior*/
+    background-color: var(--cinza-claro-fundos);
+    /*display: flex;
+    flex-direction: column;*/ /*ja tem no principal preciso deixar aqui?*/
+}
+
+.cabecalho__login{
+    background-image:  url("../img/Patas.svg"), url("../img/Forma\ 1\ cabecalho.svg");/*pq ainda tenho que deixar a imagem do
+    cabeçalho sendo que tem na página principal? e a patinhas dos cachorros não estão bem em cima do verde*/
+    background-repeat: no-repeat;
+    background-position:  top right, top left;
+    height: 15vh; /*quanto mais almento aqui mais a logo vai pra baixo*/
+    padding: 3em;/*precisa deixar o padding?*/
+}
+
+.conteudo{
+    display: flex;/*ja tem no principal preciso deixar aqui?*/
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.conteudo__texto_login{
+    color: var(--azul);
+    font-weight: 400;
+
+    padding-bottom: 0.5em;/*não esta dando diferença sem ele, sera que é pq tem o gap no principal?*/
+}
+
+.conteudo__login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;/*espaçamento no fomrulario*/
+
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+}
+
+.conteudo__login-label{
+    color: var(--cinza);
+}
+
+.conteudo__login-input{
+    font-size: 0.75em;
+    line-height: 16px;
+    color: var(--cinza-claro);
+    text-align: center;
+
+    background: var(--cinza-claro-fundos);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    width: 312px;
+    height: 40px;
+}
+
+.login-input-senha{
+    background-image: url("../img/mostra_senha.svg");
+    background-repeat: no-repeat;
+    background-position: right;/*precisa ficar um pouco afastado das bordas*/
+}
+
+.conteudo__login-esqueceu-senha{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 24px;
+    color: var(--coral);
+}
+
+.conteudo__login-botao{
+    background: var(--coral);
+    border-radius: 6px;
+    border: none;
+    width: 148px;
+    height: 40px;
+    margin: 2em 0 5em;
+
+    color: var(--white);
+    font-weight: 600;
+    line-height: 24px;
+}
