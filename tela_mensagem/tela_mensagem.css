@@ -1,0 +1,90 @@
+@import url(../principal.css);
+
+.tela_mensagem{
+    background-color: var(--cinza-claro-fundos);
+}
+
+.cabecalho__mensagem{
+    background-image:  url("../img/foto_usuario_preencher.svg"), url("../img/Forma\ 1\ cabecalho.svg");/*pq ainda tenho que deixar a imagem do
+    cabeçalho sendo que tem na página principal? e a patinhas dos cachorros não estão bem em cima do verde*/
+    background-repeat: no-repeat;
+    background-position:  top right, top left;
+    height: 15vh; /*quanto mais almento aqui mais a logo vai pra baixo*/
+    padding: 3em;/*precisa deixar o padding?*/
+}
+
+.conteudo{
+    display: flex;/*ja tem no principal preciso deixar aqui?*/
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.conteudo__texto_mensagem{
+    font-style: normal;
+    line-height: 20px;
+    color: var(--azul);
+}
+
+.conteudo__deixar-mensagem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;/*espaçamento no fomrulario*/
+
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+
+    background: var(--cinza-claro);
+    border-radius: 10px;
+
+    height: auto;
+    width: 90%;
+}
+
+.conteudo__mensagem-label{
+    color: var(--azul);
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.conteudo__mensagem-input{
+    font-size: 0.875em;
+    line-height: 24px;
+    width: 80%;
+    text-align: center;
+
+    background: var(--white);
+    mix-blend-mode: normal;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    line-height: 3.5em;
+}
+
+.conteudo__mensagem-input-mensagem{
+    line-height: 11em;
+    width: 80%;
+
+    background: var(--white);
+    mix-blend-mode: normal;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+}
+
+.conteudo__mensagem-botao{
+    background: var(--coral);
+    border-radius: 6px;
+    border: none;
+    width: 148px;
+    height: 40px;
+    margin: 2em 0 5em;
+
+    color: var(--white);
+    font-weight: 600;
+    line-height: 24px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="tela_mensagem.css">
+    <title>Mensagem</title>
+</head>
+
+<body class="tela_mensagem">
+
+    <header class="cabecalho__mensagem"> <!--em todas as páginas que tem esse cabeçalho vou ter que sempre colocar?-->
+        <a href="../index.html"><img src="../img/Casa.svg" alt="Página inicial" class="cabecalho__imagem"></a>
+        <a href="../tela_mensagem/tela_mensagem.html"><img src="../img/Mensagens.svg" alt="Caixa de mensagens" 
+            class="cabecalho__imagem"></a>
+    </header>
+    
+    <main class="conteudo">
+        <p class="conteudo__texto_mensagem">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p> 
+
+        <form class="conteudo__deixar-mensagem">
+            <label for="nome" class="conteudo__mensagem-label">Nome</label>
+            <input type="text" id="nome" placeholder="Insira seu nome completo" class="conteudo__mensagem-input">
+
+            <label for="telefone" class="conteudo__mensagem-label">Telefone</label>
+            <input type="tel" id="telefone" placeholder="Insira seu telefone e/ou whatsapp" class="conteudo__mensagem-input">
+
+            <label for="nome_animal" class="conteudo__mensagem-label">Nome do animal</label>
+            <input type="text" id="nome_animal" placeholder="Por qual animal você se interessou?" class="conteudo__mensagem-input">
+
+            <label for="mensagem" class="conteudo__mensagem-label">Mensagem</label>
+            <input type="text" id="mensagem" placeholder="Escreva sua mensagem." class="conteudo__mensagem-input-mensagem">
+
+            <input type="button" value="Enviar" class="conteudo__mensagem-botao">
+        </form>
+    </main>
+
+
+<!--não esta saindo os cachorrinhos e fundo e nem a parte lateral direita, tem que arrumar os espaçamentos-->
+
+
+
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por </p>
+        <p class="rodape__texto">Ana Carolina Gonçalves dos Santos</p>
+        <p class="rodape__texto">no Challenge Front-end 4 da Alura</p>
+    </footer>
+</body>
+</html>
